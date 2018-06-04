@@ -1,0 +1,60 @@
+/*
+* Marc-Daniel Dialogo
+* 1539756
+*/
+
+#mainText
+{
+  width: 32%;
+  height: 95%;
+  float: left;
+
+  border-style: solid;
+  border-width: medium;
+  overflow: auto;
+  font-size: 24px;
+}
+#mainImage
+{
+  width: 65%;
+  height: 95%;
+  float: right;
+
+  border-style: solid;
+  border-width: medium;
+  overflow: auto;
+}
+
+#instructionsText
+{
+  padding:2%;
+}
+#instructionsImage
+{
+  width: 100%;
+  height: 90%;float: left;
+}
+#buttons
+{
+  height: 10%;
+  width: 100%;
+  float: right;
+}
+#previousImageBtn
+{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+#nextImageBtn
+{
+  width: 50%;
+  height: 100%;
+  float:right;
+}
+
+noscript
+{
+  color: white;
+  font-size: 60px;
+}

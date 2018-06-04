@@ -1,0 +1,16 @@
+.text, li
+{
+  font-size: 20px;
+}
+
+noscript
+{
+  color: white;
+  font-size: 60px;
+}
+
+#credit a
+{
+  color:blue;
+  text-decoration: underline;
+}

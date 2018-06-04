@@ -1,0 +1,63 @@
+<!--
+  Marc-Daniel Dialogo
+  1539756
+-->
+<!doctype html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="myCSSFiles/generalLayoutCSS.css">
+    <link rel="stylesheet" href="myCSSFiles/encryptionPageCSS.css">
+    <script src="resources/codePointAt/codepointat.js"></script>
+    <script src="resources/fromCodePoint/fromcodepoint.js"></script>
+    <script src="resources/utilities.js"></script>
+    <script src="resources/cookies.js"></script>
+    <script src="myJavaScriptFiles/setAlreadyVisitedCookie.js"></script>
+    <script src="myJavaScriptFiles/emojiDecryptionJS.js"></script>
+    <script src="myJavaScriptFiles/regularEncryptionJS.js"></script>
+    <title>Decrypt text</title>
+  </head>
+
+  <body>
+      <noscript>
+        <p>Javascript is disabled.</p>
+      </noscript>
+
+      <section id="header">
+          <h1>Decryption page</h1>
+      </section>
+
+      <section id="main">
+        <textarea id="inputText" placeholder="Enter encrypted text"></textarea>
+        <br>
+        <br>
+        <select id="encryptKey">
+        </select>
+
+        <br>
+        <br>
+        <textarea id="outputText" readonly></textarea>
+      </section>
+
+      <section id="menu">
+        <div class="contentMenu">
+          <p id="menuHead">Menu</p>
+          <div id="webPages">
+            <div class="links">
+              <a href="encryptionPage.html">Encryption</a>
+            </div>
+            <div class="links">
+              <a href="decryptionPage.html">Decryption</a>
+            </div>
+            <div class="links">
+              <a href="aboutPage.html">About</a>
+            </div>
+            <div class="links">
+              <a href="instructionsPage.html">Instructions</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  </body>
+</html>
