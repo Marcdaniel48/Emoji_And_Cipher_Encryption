@@ -1,4 +1,5 @@
 # Emoji_Encryption
+Using the Caesar Cipher algorithm and a user-selected key, this site encrypts cleartext entered by the user into either a bunch of emojis or alphanumeric characters. As well as being able to encrypt text, this site supports decrypting.
 
 Note: each page incorporates a JavaScript file that redirects first-time users based on whether they don't have an 'alreadyVisited' cookie attribute. This is intentional, because this site will redirect first-time users to a tutorial-like page.
 
